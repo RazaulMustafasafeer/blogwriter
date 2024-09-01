@@ -54,7 +54,7 @@ def generate_product_description(product_details, model_name):
     return response.text
 
 # Load the JSON file containing model information
-with open(r'C:\Users\Razac\Desktop\blogwriter\blogwriter-434317-295c545d17d6.json', 'r') as f:
+with open(r'blogwriter-434317-295c545d17d6.json', 'r') as f:
     model_info = json.load(f)
 
 # Extract the desired model name from the JSON file
